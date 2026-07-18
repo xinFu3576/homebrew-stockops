@@ -1,9 +1,9 @@
 class Stockops < Formula
   desc "8-agent stock-trading team (broker/data/LLM fallback, dashboard, closed-loop learning)"
   homepage "https://github.com/xinFu3576/stockops"
-  url "https://github.com/xinFu3576/stockops/releases/download/v0.10.0/stockops-0.10.0.tar.gz"
-  sha256 "4df3bb9a903dd045e9ae1a6d4a1a87e73c21b936b4b60fe42696a8b962dc2d44"
-  version "0.10.0"
+  url "https://github.com/xinFu3576/stockops/releases/download/v0.11.0/stockops-0.11.0.tar.gz"
+  sha256 "bcbc783ed9ed6fc2e84c7f7bea47e6e4db19a224ce87cf178d5486904527a227"
+  version "0.11.0"
   license "MIT"
 
   depends_on "python@3.12"
