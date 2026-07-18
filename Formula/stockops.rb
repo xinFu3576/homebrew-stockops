@@ -1,9 +1,9 @@
 class Stockops < Formula
   desc "8-agent stock-trading team (broker/data/LLM fallback, dashboard, closed-loop learning)"
   homepage "https://github.com/xinFu3576/stockops"
-  url "https://github.com/xinFu3576/stockops/releases/download/v0.16.0/stockops-0.16.0.tar.gz"
-  sha256 "63b6c3c5c42497ab3a5885b3a587c121b55577fdee5895f7dd88a5e07bd6ff0e"
-  version "0.16.0"
+  url "https://github.com/xinFu3576/stockops/releases/download/v0.15.1/stockops-0.15.1.tar.gz"
+  sha256 "158eeafb540b7f5ec1ecba5206686ece8d94f799c7fc758bd0dc3368646bf315"
+  version "0.15.1"
   license "MIT"
 
   depends_on "python@3.12"
@@ -29,7 +29,7 @@ class Stockops < Formula
 
       常用命令:
         stockops status             # 团队状态
-        stockops test               # 跑单测 (9/9)
+        stockops test               # 跑单测
         stockops verify             # 数据/因子健康检查
         stockops dashboard          # http://127.0.0.1:8765
         stockops daily 2026-07-18   # 一键日跑
